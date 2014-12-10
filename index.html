@@ -1,7 +1,3 @@
-<!--
-Usa este archivo para tu proyecto. No olvides hacer
-la estructura correta y guardar TODO tu CSS en el archivo styles.css
- -->
 <!DOCTYPE html>
 <!-- saved from url=(0039)http://getbootstrap.com/examples/blog/# -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -16,10 +12,10 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
     <!-- Bootstrap core CSS -->
     <link href="css/libs/bootstrap.css" rel="stylesheet">
-
+    <script type="text/javascript" src="script.js"></script>
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
-
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,9 +26,140 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 </head>
 
   <body>
+    <h1 class="titulo">Cognits Blog</h1>
+    <a href="file:///home/cognitsmanana/Desktop/frontend-blog/index.html"><h5 class="boton">Home</h5></a>
+    
+    <style class="resaltar"></style>
+    <h5 class="boton1">Buscar</h5>
+    
+    <form class="algo">
+        <input class="barra" name="buscar" id="buscar" type="text" placeholder="Busqueda..."/>
+    </form>
 
-    <div class="posts"></div>
 
+    <div class="border">Cognits Blog<br><p>Blog El proyecto es para que aprendan a usar HTML,CSS y Javascript.</p><br/></div> 
+    
+    <ul class="lista">
+    <div class="buscar">
+        
+    <div class="buscador"><p></p></div>
+
+
+<!--Aca empieza el primer post-->
+<div class="ocultar">
+    <div class="tendencias">
+        <p class="parrafo">Man must explore, and this is exploration at its greatest</p>
+        
+        <p class="texto">Problems look mighty small from 150 miles up</p>
+
+        <div class="configposts posts"></div>
+        
+        <p class="posted">Posted by <span>Cognits student</span>, Noviembre 10, 2014</p>
+       
+    </div>
+<!--Fin primer post-->
+
+<!--Aca empieza el boton de comentarios-->
+    <form class="forms">
+        <input type="text" name="message" placeholder="Comenta aca...">
+    </form>
+        <button class="btn">Comentario</button>
+    <div class="messages"></div>
+        <hr class="lineas">
+<!--Fin boton de comentarios-->
+
+<!--Aca empieza el segundo post-->
+    <div class="second">
+        <p class="parrafo2">Red Informática</p>
+    
+        <p class="tema">Como funcionan las redes</p>
+
+        <div class="configposts posts1"></div>
+        
+        <p class="posted2">Posted by <span>Cognits student</span>, Noviembre 12, 2014</p>
+    </div>
+
+<!--Aca empieza el segundo boton de comentarios-->
+     <form class="forms1">
+        <input type="texto" name="mensaje1" placeholder="Comenta aca...">
+    </form>
+        <button class="btn1">Comentario</button>
+    <div class="mensajes1"></div>
+<!--Fin segundo boton de comentarios-->
+     
+</div>
+<!--Fin segundo post-->
+
+<!--Aca empieza el tercer post-->
+<div class="ocultar2">
+    <div class="three">
+        <p class="parrafo3">Nos unimos a la celebración</p>
+    
+        <p class="tema1">20 Aniversario del Hard Rock con amigos</p>
+
+        <div class="configposts posts2"></div>
+
+        <p class="posted3">Posted by <span>Cognits student</span>, Noviembre 12, 2014</p>
+     </div>
+
+
+<!--Aca empieza el tercer boton de comentarios-->
+     <form class="forms2">
+        <input type="texto1" name="mensaje2" placeholder="Comenta aca...">
+    </form>
+        <button class="btn2">Comentario</button>
+    <div class="mensajes2"></div>
+<!--Fin tercer boton de comentarios-->
+        <hr class="lineas2">
+<!--Fin tercer post-->
+
+<!--Aca empieza el cuarto post-->
+    <div class="fourth">
+        <p class="parrafo4">Los valores</p>
+    
+        <p class="tema2">La importancia de los valores</p>
+
+        <div class="configposts posts3"></div>
+
+        <p class="posted4">Posted by <span>Cognits student</span>, Noviembre 12, 2014</p>    
+    </div> 
+<!--Aca empieza el cuarto boton de comentarios-->
+     <form class="forms3">
+        <input type="texto2" name="mensaje3" placeholder="Comenta aca...">
+    </form>
+        <button class="btn3">Comentario</button>
+    <div class="mensajes3"></div>
+<!--Fin cuarto boton de comentarios-->
+        <hr class="lineas2">
+</div>
+<!--Fin cuarto post-->
+
+<!--Aca empieza el quinto post-->
+<div class="ocultar3">
+    <div class="fifth">
+       <p class="texto5">Lo que uno hace es por uno mismo</p>
+
+        <p class="tema5">Cierto o Mentira</p>
+
+        <div class="configposts posts4"></div>
+
+        <p class="posted5">Posted by <span>Cognits student</span>, Noviembre 10, 2014</p>
+    </div>
+<!--Fin primer post-->
+
+<!--Aca empieza el quinto boton de comentarios-->
+    <form class="forms5">
+        <input type="text" name="mensaje4" placeholder="Comenta aca...">
+    </form>
+        <button class="btn4">Comentario</button>
+    <div class="mensajes4"></div>
+    </div>
+    <hr class="bord">
+</div>
+
+<!--Fin boton de comentarios-->
+
+    <button class="boton3">Older Post →</button>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -40,6 +167,8 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
     <script src="js/libs/jquery-2.1.1.js"></script>
     <script src="js/script.js"></script>
     <script src="js/libs/bootstrap.js"></script>
-
+</ul>
+    <hr class="linea">
+    <p class="copy">Copyrigth © Your Website 2014</p>
   </body>
 </html>

@@ -1,0 +1,410 @@
+.titulo {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color:#6E6E6E;
+	margin-left: 1%;
+}
+
+.boton {
+	font-family: arial;
+	font-weight: bold;
+	text-decoration:none; 
+	font-size: 17px;
+	color:#6E6E6E;
+	float: right;
+	margin-bottom: -20px;
+	margin-top: -30px;
+	margin-right: 275px;
+}
+
+.boton1 {
+	font-family: arial;
+	font-weight: bold;
+	text-decoration:none; 
+	font-size: 17px;
+	color: #6E6E6E;
+	float: right;
+	margin-bottom: -60px;
+	margin-top: -30px;
+	margin-right: 200px;
+}
+
+.barra {
+	margin-left: 83%;
+}
+
+.boton3 {
+	text-align: center;
+	border-radius:10px;
+	margin-left: 65%;
+	border: #E6E6E6 2px solid;
+	background-color: white;
+}
+
+.border {
+	font-family: arial;
+	font-size: 35px;
+	text-indent: 5cm;
+	font-weight: bold;
+	border-top: 1px solid #BDBDBD;
+	background-color:#E6E6E6;
+	margin-top:1%;
+}
+
+p {
+	font-size: 22px;
+	font-family: arial;
+	font-weight: normal;
+}
+
+/* Primer post*/
+.tendencias {
+	font-family: arial;
+	font-weight: bold;
+	color:#0080FF;
+	width: 55%;
+	height: 70%;
+	margin-left: 18%;
+	margin-top: 6%;
+}
+
+.texto {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color:#0080FF;
+	width: 80%;
+	height: 60%;
+}
+
+.parrafo {
+	font-size:35px;
+}
+
+.posted {
+	font-family: arial;
+	color:#151515;
+	font-size: 15px;
+	width: 55%;
+	height: 70%;
+}
+
+span {
+	color:#0080FF;
+}
+
+/* borde */
+.lineas {
+	margin-left: 18%;
+	height: 30%;
+	width: 60%;
+}
+
+.lineas2 {
+	margin-left: 18%;
+	height: 30%;
+	width: 60%;
+}
+
+.bord {
+	margin-left: 18%;
+	height: 30%;
+	width: 60%;
+}
+
+.linea {
+	width: 100%;
+	height: 100%;
+}
+
+/* Aca empieza el segundo post*/
+.second {
+	font-family: arial;
+	font-weight: bold;
+	color:#0080FF;
+	width: 55%;
+	height: 70%;
+	margin-top: 3%;
+	margin-left: 18%;
+}
+
+.tema {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color:#0080FF;
+	width: 55%;
+	height: 70%;	
+}
+
+.parrafo2 {
+	font-size:35px
+}
+
+.posted2 {
+	font-family: arial;
+	color:#151515;
+	font-size: 15px;
+	width: 55%;
+	height: 70%;
+}
+
+/* Aca empieza el tercer post*/
+.three {
+	font-family: arial;
+	font-weight: bold;
+	color:#0080FF;
+	width: 55%;
+	height: 70%;
+	margin-top: 3%;
+	margin-left: 18%;	
+}
+
+.tema1 {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color:#0080FF;
+	width: 55%;
+	height: 70%;
+}
+
+.parrafo3 {
+	font-size:35px
+}
+
+.posted3 {
+	font-family: arial;
+	color:#151515;
+	font-size: 15px;
+	width: 55%;
+	height: 70%;
+}
+
+/* Aca empieza el cuarto post*/
+.fourth {
+	font-family: arial;
+	font-weight: bold;
+	color:#0080FF;
+	width: 55%;
+	height: 70%;
+	margin-top: 3%;
+	margin-left: 18%;
+}
+
+.tema2 {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color:#0080FF;
+	width: 55%;
+	height: 70%;
+}
+
+.parrafo4 {
+	font-size:35px
+}
+
+.posted4 {
+	font-family: arial;
+	color:#151515;
+	font-size: 15px;
+	width: 55%;
+	height: 70%;
+}
+/* Fin de los posts */
+
+/* Aca empieza el cuarto post*/
+.fifth {
+	font-family: arial;
+	font-weight: bold;
+	color:#0080FF;
+	width: 55%;
+	height: 70%;
+	margin-top: 3%;
+	margin-left: 18%;
+}
+
+.tema5 {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color:#0080FF;
+	width: 90%;
+	height: 60%;
+}
+
+.texto5 {
+	font-size:35px
+}
+
+.posted5 {
+	font-family: arial;
+	color:#151515;
+	font-size: 15px;
+	width: 55%;
+	height: 70%;
+}
+/* Fin de los posts */
+
+/* Ŕegistro de la pagina */
+.copy {
+	font-family: arial;
+	font-size: 13px;
+	margin-left: 18%;
+	color:#6E6E6E;
+}
+
+.configposts {
+	display: none;
+	font-family: arial;
+	font-size: 12px;
+	color: #000000;
+}
+
+
+.ocultar2 {
+	display: none;
+}
+
+.ocultar3 {
+	display: none;
+}
+
+
+/* Configuracion Comentarios post uno*/
+.forms {
+    font-size: 12px;
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+    margin-left: 58%;
+}
+
+.btn {
+  text-decoration: none;
+  background: #A4A4A4;
+  color: #222;
+  border: 1px outset #CCC;
+  padding: .1em .5em;
+  border-radius: 3px;
+}
+
+.messages {
+    font-size: 14px;
+	font-family: Garamond, Times, Serif;
+	margin-left: 18%;
+}
+
+/* Configuracion Comentarios post dos*/
+.forms1 {
+	font-size: 12px;
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+    margin-left: 58%;
+}
+
+.mensajes1 {
+	font-size: 14px;
+	font-family: Garamond, Times, Serif;
+	margin-left: 18%;
+}
+
+.btn1 {
+  text-decoration: none;
+  background: #A4A4A4;
+  color: #222;
+  border: 1px outset #CCC;
+  padding: .1em .5em;
+  border-radius: 3px;
+}
+
+/* Configuracion Comentarios post tres*/
+.forms2 {
+	font-size: 12px;
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+    margin-left: 58%;
+}
+
+.mensajes2 {
+	font-size: 14px;
+	font-family: Garamond, Times, Serif;
+	margin-left: 18%;
+}
+
+.btn2 {
+  text-decoration: none;
+  background: #A4A4A4;
+  color: #222;
+  border: 1px outset #CCC;
+  padding: .1em .5em;
+  border-radius: 3px;
+}
+
+/* Configuracion Comentarios post cuatro*/
+.forms3 {
+	font-size: 12px;
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+    margin-left: 58%;
+}
+
+.mensajes3 {
+	font-size: 14px;
+	font-family: Garamond, Times, Serif;
+	margin-left: 18%;
+}
+
+.btn3 {
+  text-decoration: none;
+  background: #A4A4A4;
+  color: #222;
+  border: 1px outset #CCC;
+  padding: .1em .5em;
+  border-radius: 3px;
+}
+
+/* Configuracion Comentarios post quinto*/
+.forms5 {
+	font-size: 12px;
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+    margin-left: 58%;
+}
+
+.mensajes4 {
+	font-size: 14px;
+	font-family: Garamond, Times, Serif;
+	margin-left: 18%;
+}
+
+.btn4 {
+  text-decoration: none;
+  background: #A4A4A4;
+  color: #222;
+  border: 1px outset #CCC;
+  padding: .1em .5em;
+  border-radius: 3px;
+}
+
+.resaltar{
+	background-color:#31B404;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
